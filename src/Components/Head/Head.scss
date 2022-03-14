@@ -1,0 +1,73 @@
+@import '../../Assets/SCSS/mixin.scss';
+
+.head{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(246, 80, 80, 0.15);
+
+    &__block {
+        @include flex(center, space-between);
+    }
+
+    &__left{
+        @include flex(center, space-between);
+        font-size: 12px;
+        line-height: 12px;
+        color: #393939;
+
+        .gradius{
+            margin: 0 8px;
+            position: relative;
+            small{
+                position: absolute;
+                font-size: 6px;
+                top: -7px;
+                right: 0px;
+            }    
+            i{
+                position: absolute;
+                font-size: 10px;
+                top: -3px;
+                right: -14px;
+            }
+        }
+
+        i{
+            margin: 0 8px;
+        }
+
+        .news {
+            margin: 0 8px;
+            color: #FFFFFF;
+            @include flex(center, center);
+            padding: 15px 7px;
+            background: #F65050;
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+
+    &__right {
+        a~a{
+            margin-left: 10px;
+        }
+        a{
+            font-size: 24px;
+
+            .facebook{
+                color: #1B7BFD;
+            }
+
+            .twitter{
+                color: #42C0F5;
+            }
+
+            .instagram{
+                color: #C23785;
+            }
+
+            .youtube{
+                color: #EF5043;
+            }
+        }
+    }
+}

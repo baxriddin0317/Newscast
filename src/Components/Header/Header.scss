@@ -1,0 +1,67 @@
+@import '../../Assets/SCSS/mixin.scss';
+
+.header{
+    margin-bottom: 25px;
+
+    &__nav {
+        padding-right: 24px;
+        background: #393939;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        @include flex(center, space-between);
+    }
+
+    &__links {
+        @include flex(center, space-between);
+
+        span {
+            position: relative;
+            padding: 15px 10px;
+
+            a{
+                font-size: 20px;
+                // line-height: 30px;
+                color: #FFFFFF;
+            }
+        }
+
+        .active-span{
+            background: #F65050;
+
+            &::before{
+                content: '';
+                height: 1px;
+                width: 50%;
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: #FFFFFF;
+            }
+        }
+    }
+    
+    #basic-button {
+        // font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        color: #FFFFFF;
+        padding: 15px 10px;
+    }
+
+    &__search {
+        border-left: 1px, solid rgba(255, 255, 255, 0.3);
+        @include flex(center, center);
+
+        input{
+            border: none;
+            background: transparent;
+            color: #FFFFFF;
+            outline: none;
+            padding: 15px 10px;
+        }
+
+        .search-icon {
+            color: rgba(255, 255, 255, 0.3);
+        }
+    }
+}

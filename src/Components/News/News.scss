@@ -1,0 +1,42 @@
+.news{
+    margin-left: 30px;
+    width: 271px;
+
+    &__head{
+        padding: 14px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #393939;
+            cursor: pointer;
+        }
+
+        .active_span{
+            color: #F65050;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 90px;
+                bottom: -15px;
+                display: inline-block;
+                background-color: #F65050;
+                height: 1px;
+            }
+        }
+    }
+
+    &__line {
+        display: inline-block;
+        background-color: #393939;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 19px;
+    }
+}

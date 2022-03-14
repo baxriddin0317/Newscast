@@ -1,0 +1,25 @@
+.form {
+    width: 220px;
+
+    input{
+        width: 100%;
+        height: 40px;
+        border: none;
+        padding-left: 10px;
+        outline: none;
+        margin-bottom: 10px;
+    }
+
+    button{
+        border: none;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 163.9%;
+        color: #FFFFFF;
+        height: 40px;
+        width: 100%;
+        background: #F65050;
+        cursor: pointer;
+    }
+}

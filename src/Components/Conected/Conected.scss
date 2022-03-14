@@ -1,0 +1,128 @@
+.conected{
+    width: 270px;
+
+    &__title {
+        margin: 15px 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #F65050;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 90px;
+            bottom: -15.5px;
+            display: inline-block;
+            background-color: #F65050;
+            height: 1px;
+        }
+    }
+
+    &__line {
+        display: inline-block;
+        background-color: #393939;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 19px;
+    }
+    
+    &__links{
+        width: 100%;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        a{
+            width: 130px;
+            height: 40px;
+            background: #4281FF;
+            display: flex;
+            margin-bottom: 10px;
+            padding: 12px 10px;
+
+            i{
+                color: #FFFFFF;
+                font-size: 14px;
+            }
+
+            div{
+                margin-left: 10px;
+                display: flex;
+                flex-direction: column;
+                span{
+                    margin-bottom: 4px;
+                    font-weight: 500;
+                    font-size: 8px;
+                    line-height: 8px;
+                    color: #FFFFFF;
+                }
+            }
+
+            &:nth-child(2){
+                background: #C23785;
+            }
+            &:nth-child(3){
+                background: #EF5043;
+            }
+            &:nth-child(4){
+                background: #42C0F5;
+            }
+            &:nth-child(5){
+                background: #1B7BFD;
+            }
+            &:nth-child(6){
+                background: #F7679D;
+            }
+        }
+
+        
+    }
+
+    &__ad {
+        margin-bottom: 25px;
+        width: 270px;
+        height: 290px;
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        position: relative;
+
+        img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        span{
+            position: absolute;
+            z-index: 3;
+            top: 50%;
+            left: 40%;
+            transform: translateY(-50%);
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 42px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__box {
+        width: 270px;
+        height: 195px;
+        background: #DEDADA;
+        padding: 25px;
+
+        h2{
+            text-align: center;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 163.9%;
+            margin-bottom: 25px;
+            color: #2D2D2D;
+        }
+
+    }
+}

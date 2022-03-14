@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700&family=Oswald:wght@400;500&family=Rubik:wght@400;500;700&display=swap');
+@import url( ' http://fonts.cdnfonts.com/css/sofia-pro ' );
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+body{
+  font-family : 'Sofia Pro' , sans-serif ;
+  font-weight: 250;
+}
+
+.container{
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 40px 0;
+}
+
+.section {
+  display: flex;
+  margin-bottom: 35px;
+
+  &__left {
+    width: 870px;
+  }
+
+  &__left-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 46px;
+  }
+
+  &__right {
+    margin-left: 30px;
+  }
+
+}
