@@ -15,7 +15,7 @@ import { Autoplay, Navigation } from "swiper";
 
 function Entertainment() {
 
-  const info = useState(Data.filter(obj => obj.categorie === "Entertainment"));
+  const [info] = useState(Data.filter(obj => obj.categorie === "Entertainment"));
   const [index, setIndex] = useState(0);
 
   return (
