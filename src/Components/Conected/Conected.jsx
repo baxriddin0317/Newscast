@@ -2,6 +2,7 @@ import React from 'react'
 import "./Conected.scss"
 import Ovqat from "../../Assets/Img/ovqat.jpg";
 import Form from '../Form/Form';
+import Categories from '../Categories/Categories';
 
 function Conected() {
   return (
@@ -66,6 +67,16 @@ function Conected() {
             <h2>Get Latest Updates</h2>
             <Form />
         </div>
+
+        <h3 className="conected__title">
+            Categories
+        </h3>
+        <span className="conected__line"></span>
+
+        <div className="conected__list">
+            <Categories />
+        </div>
+    
     </div>
   )
 }

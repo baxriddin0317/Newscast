@@ -1,0 +1,19 @@
+.categories{
+
+    &__item{
+
+        &-span{
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #F65050;
+            color: white;
+            font-weight: 400;
+            font-size: 12px;
+            margin-right: 5px;
+            line-height: 111.1%;
+        }
+    }
+}

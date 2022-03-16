@@ -1,0 +1,38 @@
+.details{
+    &__item {
+        display: flex;
+        cursor: pointer;
+        align-items: flex-end;
+        margin-bottom: 14px;
+
+        img{
+            width: 40px;
+            height: 44px;
+            margin-right: 15px;
+        }
+        &-box {
+            span {
+                font-weight: 400;
+                font-size: 9px;
+                // line-height: 100.9%;
+                color: #393939;
+            }
+
+            h2{
+                margin-top: 3px;
+                font-weight: 400;
+                font-size: 13px;
+                // line-height: 22px;
+                text-transform: capitalize;
+                color: #393939;
+            }
+        }
+
+        &:hover{
+            background-color: rgba($color: #000000, $alpha: 0.1);
+        }
+        &:active{
+            background-color: rgba($color: #000000, $alpha: 0.3);
+        }
+    }
+}

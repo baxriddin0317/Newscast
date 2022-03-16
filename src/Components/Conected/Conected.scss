@@ -2,7 +2,7 @@
     width: 270px;
 
     &__title {
-        margin: 15px 0;
+        margin: 14.5px 0;
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
@@ -110,6 +110,7 @@
     }
 
     &__box {
+        margin-bottom: 25px;
         width: 270px;
         height: 195px;
         background: #DEDADA;

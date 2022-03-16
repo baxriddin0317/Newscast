@@ -7,14 +7,25 @@
     &__content {
         display: flex;
         align-items: flex-end;
-        margin-bottom: 7px;
+        // margin-bottom: 7px;
         justify-content: space-between;
 
         h2{
             font-weight: 500;
             font-size: 24px;
-            // line-height: 36px;
+            line-height: 36px;
             color: #F65050;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 130px;
+                bottom: -15.5px;
+                display: inline-block;
+                background-color: #F65050;
+                height: 1px;
+            }
         }
 
         span~span{
@@ -24,7 +35,7 @@
         span{
             font-weight: 400;
             font-size: 12px;
-            line-height: 18px;
+            // line-height: 18px;
             color: #FFFFFF;
             padding: 4px 8px;
             cursor: pointer;

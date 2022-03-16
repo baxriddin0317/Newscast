@@ -17,7 +17,7 @@ function Jumbotron() {
                 <Swiper
                     modules={[Autoplay, Pagination]}
                     slidesPerView={1}
-                    autoplay={{delay: 1000}}
+                    autoplay={{delay: 2500}}
                     pagination={{clickable: true}}
                 >
                     <SwiperSlide>
@@ -49,7 +49,7 @@ function Jumbotron() {
                     <Swiper
                         modules={[Autoplay, Pagination]}
                         slidesPerView={1}
-                        autoplay={{delay: 1000}}
+                        autoplay={{delay: 2500}}
                         pagination={{clickable: true}}
                     >
                         <SwiperSlide>
@@ -81,7 +81,7 @@ function Jumbotron() {
                     <Swiper
                         modules={[Autoplay, Pagination]}
                         slidesPerView={1}
-                        autoplay={{delay: 1000}}
+                        autoplay={{delay: 2500}}
                         pagination={{clickable: true}}
                     >
                         <SwiperSlide>
@@ -114,7 +114,7 @@ function Jumbotron() {
                     <Swiper
                         modules={[Autoplay, Pagination]}
                         slidesPerView={1}
-                        autoplay={{delay: 1000}}
+                        autoplay={{delay: 2500}}
                         pagination={{clickable: true}}
                     >
                         <SwiperSlide>

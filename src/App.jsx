@@ -12,6 +12,7 @@ import { useState } from 'react';
 import News from './Components/News/News';
 import Entertainment from './Components/Entertainment/Entertainment';
 import Conected from './Components/Conected/Conected';
+import Life from './Components/Life/Life';
 
 
 const arr = [
@@ -94,6 +95,7 @@ function App() {
             <List data={sports} seti = {seti} setSports={setSports} />
           </div>
           <Menu title={'Life Style'} arr = {arr} />
+          <Life />
         </div>
         <div className="section__right">
           <Conected />
