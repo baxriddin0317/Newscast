@@ -1,0 +1,69 @@
+@import "../../Assets/SCSS/mixin.scss";
+
+.life{
+
+    &__advertising {
+        margin-top: 48px;
+        padding: 0 28px 0 37px;
+        height: 120px;
+        width: 100%;
+        background-image: url("../../Assets/Img/change.jpg");
+        background-repeat: no-repeat;
+        @include flex(center, space-between);
+
+        h3{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 151.1%;
+            color: #FFFFFF;
+            width: 219px;
+        }
+
+        span {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 151.1%;
+            color: #F65050;
+        }
+
+        button {
+            width: 180px;
+            height: 44px;
+            background: #F65050;
+            @include flex(center, center);
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+            color: #FFFFFF;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    &__list{
+        width: 270px;
+        cursor: pointer;
+
+        img{
+            width: 100%;
+            height: 200px;
+            margin-bottom: 25px;
+        }
+
+        span{
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 100.9%;
+            color: #393939;
+        }
+
+        h3{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            margin-top: 6px;
+            color: #393939;
+        }
+    }
+
+}

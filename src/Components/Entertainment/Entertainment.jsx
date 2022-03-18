@@ -20,7 +20,7 @@ function Entertainment() {
 
   return (
     <div className='enter'>
-        <BigPicture obj={info[index]} />
+        <BigPicture obj={info[index]} hr={true} styles={false}/>
 
         {info.length>0 && 
           <Swiper
