@@ -1,0 +1,44 @@
+@import "../../Assets/SCSS/mixin.scss";
+
+.slider{
+    width: 1345px;
+    margin: 0 auto;
+    position: relative;
+
+    &__item{
+        width: 288px;
+        height: 288px;
+
+        img{
+            width: 288px;
+            height: 288px;
+        }
+    }
+
+    &__link {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        width: 146px;
+        height: 146px;
+        border-radius: 50%;
+        background: rgba(194, 55, 133, 0.6);
+        @include flex(center, center);
+        
+        a{
+            @include flex(center, center);
+            flex-direction: column;
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 18px;
+            
+            i{
+                font-size: 36px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

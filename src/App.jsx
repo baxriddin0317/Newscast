@@ -14,6 +14,7 @@ import Entertainment from './Components/Entertainment/Entertainment';
 import Conected from './Components/Conected/Conected';
 import Life from './Components/Life/Life';
 import Footer from './Components/Footer/Footer';
+import Slider from './Components/Slider/Slider';
 
 
 const arr = [
@@ -103,7 +104,11 @@ function App() {
         </div>
       </section> 
 
-      <Footer />     
+      <section>
+        <Slider />
+      </section>
+
+      <Footer arr={arr} />     
     </div>
   );
 }

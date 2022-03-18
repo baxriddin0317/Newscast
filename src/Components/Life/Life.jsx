@@ -15,13 +15,13 @@ import { Autoplay } from "swiper";
 
 function Life() {
 
-  const [ data ] = useState(Data.filter(obj => obj.categorie === "Entertainment"));
+  const [ data ] = useState(Data.filter(obj => obj.categorie === "Trending"));
   const [num, setNum] = useState(0);
 
   return (
     <div className='life'>
 
-        <BigPicture obj={Data[num]} hr={false} styles={true} />
+        <BigPicture obj={data[num]} hr={false} styles={true} />
           
         {data.length>0 && 
           <Swiper
@@ -34,7 +34,7 @@ function Life() {
             modules={[ Autoplay]}
           >
             {data.map((obj, i) => (
-              <SwiperSlide className='life__list' key={obj.id} onClick={()=>setNum(obj.id-1)}>
+              <SwiperSlide className='life__list' key={obj.id} onClick={()=>setNum(i)}>
                 <img src={obj.img} alt={obj.title} />
                 <div>
                   <span>Craig Bator - 27 Dec 2020</span>
