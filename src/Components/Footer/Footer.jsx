@@ -60,7 +60,7 @@ function Footer({arr}) {
             </div>
           </div>
           <div className="footer__box">
-              <h2>Tags</h2>
+              <h2>Stay In Touch</h2>
               <span className="footer__box-line">
                   <span></span>
               </span>
